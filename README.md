@@ -6,6 +6,12 @@
 - wxPython (GUI)
 - tqdm 
 
+## REPO 
+https://github.com/shailesh1210/BCCLASSIFER.git
+
+It contains trained weights of the best model in `weights` folder along with model's training performance.
+Sample images are also provided in `resources/samples/` folder for making predictions.
+
 ## Dataset description
 Download Invasive Ductal Carcinoma (IDC) dataset from Kaggle:
 https://www.kaggle.com/paultimothymooney/breast-histopathology-images
