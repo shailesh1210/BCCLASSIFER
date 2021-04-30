@@ -9,15 +9,12 @@
 ## REPO 
 https://github.com/shailesh1210/BCCLASSIFER.git
 
-It contains trained weights of the best model in `weights` folder along with model's training performance.
-Sample images are also provided in `resources/samples/` folder for making predictions.
-
 ## Dataset description
 Download Invasive Ductal Carcinoma (IDC) dataset from Kaggle:
 https://www.kaggle.com/paultimothymooney/breast-histopathology-images
 
-The dataset size ~5GB. It needs to be downloaded from the link above.
-`bcclassifer` package has `/resources/raw_data` folder. Please copy contents of downloaded dataset into `raw_data` folder.
+The dataset size is ~5GB. It needs to be downloaded from the link above.
+`bcclassifer` package has `/resources/raw_data` folder. Please copy contents of downloaded dataset (of IDC_regular_ps50_idx5) into `raw_data` folder.
 
 ## Running training script:
 Training script is `train.py`. It will create `training`, `validation`, `test` folders in `resources`.
